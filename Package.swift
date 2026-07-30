@@ -15,8 +15,8 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/facephi-clienters/SDK-CorePackage-SPM.git", .exactItem("2.9.0")),
-        .package(url: "https://github.com/facephi-clienters/Selphi-SPM.git", .upToNextMinor(from: "6.2.3"))
+        .package(url: "https://github.com/facephi-clienters/SDK-CorePackage-SPM.git", .exactItem("2.10.0")),
+        .package(url: "https://github.com/facephi-clienters/Selphi-SPM.git", .upToNextMinor(from: "6.3.0"))
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -25,7 +25,7 @@ let package = Package(
             name: "SDK-Selphi_component-SPM",
             dependencies: ["SDK-CorePackage-SPM", "Selphi-SPM", "selphiComponent"]),
         .binaryTarget(name: "selphiComponent",
-        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/SDK/FPHISDKSelphiComponent/2.9.0/selphiComponent.zip",
-        checksum: "a3778ac19e40fa2c30200c8ebc19314ad7100a17afebb1a22f017e9fc0b81719")
+        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/SDK/FPHISDKSelphiComponent/2.10.0/selphiComponent.zip",
+        checksum: "54fb91c0d2dc48fe17f184f197a758ac9e22dd21ab4230e4fbd3521e575918ca")
     ]
 )
