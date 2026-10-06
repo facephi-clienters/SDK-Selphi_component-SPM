@@ -25,7 +25,7 @@ let package = Package(
             name: "SDK-Selphi_component-SPM",
             dependencies: ["SDK-CorePackage-SPM", "Selphi-SPM", "selphiComponent"]),
         .binaryTarget(name: "selphiComponent",
-        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/SDK/FPHISDKSelphiComponent/2.12.0/selphiComponent.zip",
-        checksum: "c5a9f1c768102f80bb610ca8a3ab9b32fb82b1bf7de2d5fc7295146db5ad6e75")
+        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/SDK/FPHISDKSelphiComponent/2.12.2/selphiComponent.zip",
+        checksum: "e88086978aa8e0711ad83f4ac0f731e24977dfe2936f64844fede3e604f1fd94")
     ]
 )
